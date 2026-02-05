@@ -6,7 +6,7 @@ A minimal, production-ready Flask app boilerplate.
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+.venv\Scripts\Activate.ps1 
 pip install -r requirements.txt
 cp .env.example .env
 python run.py
